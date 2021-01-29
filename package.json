@@ -1,0 +1,18 @@
+{
+  "name": "parcel-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 1234 watch src/index.pug",
+    "build": "parcel build src/index.pug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "require-yml": "^2.0.0"
+  }
+}

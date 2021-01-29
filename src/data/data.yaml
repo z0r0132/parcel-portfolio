@@ -1,0 +1,109 @@
+# sections
+sections:
+  - skills:
+    name: skills
+    id: skills
+    template: dark-cards-no-bg
+    values:
+      - behavioral competencies:
+        name: behavioral competencies
+        id: behavioral-competencies
+        values:
+          - Client focus
+          - Creative Thinking
+          - Initiative
+          - Results oriented
+          - Teamwork
+          - Self-knowing and self-development
+          - Business understanding
+      - computer literacies:
+        name: computer literacies
+        id: computer-literacies
+        values:
+          Front-end: HTML5, Twig, JavaScript, JQuery, AngularJS, NodeJS, GruntJS, Bower, CSS3, LESS, SASS, Compass, TypeScript, Jasmine, Karma, Protractor, ASP.NET
+          Back-end: PHP, Wordpress, Joomla, CodeIgniter, Composer, C#
+          Database: MySQL, MS SQL, JQuery, MongoDB
+          Photo Editor: Adobe Photoshop, Adobe Illustrator
+      - language skills:
+        name: language skills
+        id: language-skills
+        values:
+          English: B2 level
+          French: B2 level
+          Arabic: Native language
+          Spanish: Very basic level
+          German: Very basic level
+
+  - some of my projects:
+    name: some of my projects
+    id: projects
+    template: cards-with-pic-no-bg
+    values:
+      - chouchic:
+          name: chouchic
+          id: chouchic
+          url: www.chouchic.com
+          year: 2013
+          type: E-commerce website
+          copyright: Worked on it in Paravision
+          description:
+            - Change design and add many features
+            - Arabic and English language
+            - Work on collaboration with the SEO for affiliate system and Google Ads and Analytics, Facebook Apps, and Google Merchant
+            - Have multiple affiliate with multiple type of calculation for referrers, per click, per registration, per payment, total amount (%) and combination between multiple options
+            - Cross browser support
+            - Provide all items per brands and offer as RSS for Google and for our affiliates
+            - Create banners for Ads with script code per affiliate for custom Ads
+            - More than 500 visitors per day (on 2013)
+            - Cron jobs on server to remove reserved items
+      - touristtube:
+          name: touristtube
+          id: touristtube
+          url: www.touristtube.com
+          year: 2015
+          type: Travel - Attractions - Destinations - Landmarks
+          copyright: Worked on it in Paravision
+          description:
+            - More than 100 k visitor per day (on 2015)
+            - Social media, tourist planner, and media-sharing
+            - Media cropping (img / video)
+            - Canvas / image edit
+            - User management
+            - Supervisor a small team for front-end development of components from India
+            - Work on Api for mobile app
+            - Making Email templates
+            - Cross browser support
+
+  - professional experiences:
+    name: professional experiences
+    id: professional-experiences
+    template: dark-cards-no-bg
+    values:
+      - Sword Group:
+          name: Sword Group
+          id: sword-group
+          duration: 13/8/2015 -
+          title: Senior web developer on LeShop.ch
+          Technical environment: AngularJs, Bower, Yeoman, Git, GruntJs, Html5, Css3, NPM
+      - Vinelab:
+          name: Vinelab
+          id: vinelab
+          duration: 1/1/2015 - 12/8/2015
+          title: Senior Front end web developer
+          Technical environment: AngularJs, Bower, Yeoman, Git, GruntJs, Html5, Css3, Ecma Script 6, TypeScript, Protractor, Jasmine, Karma, NPM
+
+  - studies:
+    name: studies
+    id: studies
+    template: cards-with-bg
+    bg: studies-bg.jpg
+    values:
+      - Master 1 in computer science:
+          date: Feb 2011
+          institute: Lebanese University
+      - License in computer science:
+          date: Jul 2009
+          institute: Lebanese University
+      - Bacc. II in life science (SV):
+          date: Jul 2006
+          institute: Secondary School, Schiah

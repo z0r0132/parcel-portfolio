@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+   meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+   meta(name="viewport", content="width=device-width, initial-scale=1.0")
+   meta(name="description", content="Joseph El Alam, front end developer")
+   meta(name="keywords", content="Joseph El Alam, front end architect, munich, payment, lead developer")
+   link(rel="shortcut icon", href="img/favicon.png", type="image/x-icon")
+   title Joseph El Alam Portfolio 
+  body
+    div(class="logo") Joseph
+
+    header(class="header")
+      nav
+        ul
+          each val in d.sections
+            li
+              a(href="#"+val.id)= val.name
+    
+    
+    div(class=d.sections[0].template id=d.sections[0].id)
+      h1= d.sections[0].name
+
+
+    script(src="index.js")
